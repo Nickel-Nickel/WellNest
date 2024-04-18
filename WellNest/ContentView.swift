@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        /* TabView is a SwiftUI container view used to
+        display multiple views as tabs */
         TabView {
-            HomeView()
-                .tabItem{
+            HomeView().tabItem{
+                    //SF Symbols are used for the tab's icon
                     Image(systemName: "house")
                     Text("Home")
                 }
