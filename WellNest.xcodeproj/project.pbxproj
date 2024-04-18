@@ -20,6 +20,8 @@
 		7A8E230C2BCF960B0024B803 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8E230B2BCF960B0024B803 /* Launch Screen.storyboard */; };
 		7A8E23102BCFCD120024B803 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E230F2BCFCD120024B803 /* SwiftUIView.swift */; };
 		7A8E23122BCFD0520024B803 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E23112BCFD0520024B803 /* LaunchViewController.swift */; };
+		D38E37C02BD1B93300CD016F /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38E37BF2BD1B93300CD016F /* WorkoutView.swift */; };
+		D38E37C22BD1B95400CD016F /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38E37C12BD1B95400CD016F /* NutritionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		7A8E230B2BCF960B0024B803 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		7A8E230F2BCFCD120024B803 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		7A8E23112BCFD0520024B803 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		D38E37BF2BD1B93300CD016F /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		D38E37C12BD1B95400CD016F /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				7A8E22DF2BCF7B4C0024B803 /* WellNestApp.swift */,
 				7A8E22E12BCF7B4C0024B803 /* ContentView.swift */,
 				037792572BD065C40036EBD1 /* HomeView.swift */,
+				D38E37C32BD1C70F00CD016F /* NutritionTab */,
+				D38E37BF2BD1B93300CD016F /* WorkoutView.swift */,
 				037792592BD0A6D10036EBD1 /* MoodView.swift */,
 				0377925B2BD0A7220036EBD1 /* AccountView.swift */,
 				7A8E22E32BCF7B4E0024B803 /* Assets.xcassets */,
@@ -143,6 +149,14 @@
 				7A8E22FC2BCF7B4E0024B803 /* WellNestUITestsLaunchTests.swift */,
 			);
 			path = WellNestUITests;
+			sourceTree = "<group>";
+		};
+		D38E37C32BD1C70F00CD016F /* NutritionTab */ = {
+			isa = PBXGroup;
+			children = (
+				D38E37C12BD1B95400CD016F /* NutritionView.swift */,
+			);
+			path = NutritionTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,9 +292,11 @@
 			files = (
 				7A8E23122BCFD0520024B803 /* LaunchViewController.swift in Sources */,
 				0377925C2BD0A7220036EBD1 /* AccountView.swift in Sources */,
+				D38E37C02BD1B93300CD016F /* WorkoutView.swift in Sources */,
 				7A8E22E22BCF7B4C0024B803 /* ContentView.swift in Sources */,
 				7A8E23102BCFCD120024B803 /* SwiftUIView.swift in Sources */,
 				0377925A2BD0A6D10036EBD1 /* MoodView.swift in Sources */,
+				D38E37C22BD1B95400CD016F /* NutritionView.swift in Sources */,
 				7A8E22E02BCF7B4C0024B803 /* WellNestApp.swift in Sources */,
 				037792582BD065C40036EBD1 /* HomeView.swift in Sources */,
 			);

@@ -17,6 +17,14 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }
+            WorkoutView().tabItem{
+                Image(systemName: "dumbbell.fill")
+                Text("Workout")
+            }
+            NutritionView().tabItem{
+                Image(systemName: "heart.circle")
+                Text("Nutrition")
+            }
             MoodView().tabItem{
                 Image(systemName: "face.smiling")
                 Text("Mood Logger")
