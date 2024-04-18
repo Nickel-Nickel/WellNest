@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037792582BD065C40036EBD1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037792572BD065C40036EBD1 /* HomeView.swift */; };
+		0377925A2BD0A6D10036EBD1 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037792592BD0A6D10036EBD1 /* MoodView.swift */; };
+		0377925C2BD0A7220036EBD1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377925B2BD0A7220036EBD1 /* AccountView.swift */; };
 		7A8E22E02BCF7B4C0024B803 /* WellNestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E22DF2BCF7B4C0024B803 /* WellNestApp.swift */; };
 		7A8E22E22BCF7B4C0024B803 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E22E12BCF7B4C0024B803 /* ContentView.swift */; };
 		7A8E22E42BCF7B4E0024B803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8E22E32BCF7B4E0024B803 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037792572BD065C40036EBD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		037792592BD0A6D10036EBD1 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		0377925B2BD0A7220036EBD1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		7A8E22DC2BCF7B4C0024B803 /* WellNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8E22DF2BCF7B4C0024B803 /* WellNestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellNestApp.swift; sourceTree = "<group>"; };
 		7A8E22E12BCF7B4C0024B803 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +108,9 @@
 			children = (
 				7A8E22DF2BCF7B4C0024B803 /* WellNestApp.swift */,
 				7A8E22E12BCF7B4C0024B803 /* ContentView.swift */,
+				037792572BD065C40036EBD1 /* HomeView.swift */,
+				037792592BD0A6D10036EBD1 /* MoodView.swift */,
+				0377925B2BD0A7220036EBD1 /* AccountView.swift */,
 				7A8E22E32BCF7B4E0024B803 /* Assets.xcassets */,
 				7A8E230B2BCF960B0024B803 /* Launch Screen.storyboard */,
 				7A8E230F2BCFCD120024B803 /* SwiftUIView.swift */,
@@ -268,9 +277,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A8E23122BCFD0520024B803 /* LaunchViewController.swift in Sources */,
+				0377925C2BD0A7220036EBD1 /* AccountView.swift in Sources */,
 				7A8E22E22BCF7B4C0024B803 /* ContentView.swift in Sources */,
 				7A8E23102BCFCD120024B803 /* SwiftUIView.swift in Sources */,
+				0377925A2BD0A6D10036EBD1 /* MoodView.swift in Sources */,
 				7A8E22E02BCF7B4C0024B803 /* WellNestApp.swift in Sources */,
+				037792582BD065C40036EBD1 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
