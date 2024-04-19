@@ -87,6 +87,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03EFAE772BD3036F003DCEC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A8E22E12BCF7B4C0024B803 /* ContentView.swift */,
+				037792572BD065C40036EBD1 /* HomeView.swift */,
+				D38E37C12BD1B95400CD016F /* NutritionView.swift */,
+				D38E37BF2BD1B93300CD016F /* WorkoutView.swift */,
+				037792592BD0A6D10036EBD1 /* MoodView.swift */,
+				0377925B2BD0A7220036EBD1 /* AccountView.swift */,
+				03EFAE782BD3040E003DCEC4 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03EFAE782BD3040E003DCEC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A8E23112BCFD0520024B803 /* LaunchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		03EFAE7A2BD30BE2003DCEC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7A8E22D32BCF7B4C0024B803 = {
 			isa = PBXGroup;
 			children = (
@@ -111,16 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				7A8E22DF2BCF7B4C0024B803 /* WellNestApp.swift */,
-				7A8E22E12BCF7B4C0024B803 /* ContentView.swift */,
-				037792572BD065C40036EBD1 /* HomeView.swift */,
-				D38E37C32BD1C70F00CD016F /* NutritionTab */,
-				D38E37BF2BD1B93300CD016F /* WorkoutView.swift */,
-				037792592BD0A6D10036EBD1 /* MoodView.swift */,
-				0377925B2BD0A7220036EBD1 /* AccountView.swift */,
+				03EFAE7A2BD30BE2003DCEC4 /* Models */,
+				03EFAE772BD3036F003DCEC4 /* Views */,
 				7A8E22E32BCF7B4E0024B803 /* Assets.xcassets */,
 				7A8E230B2BCF960B0024B803 /* Launch Screen.storyboard */,
 				7A8E230F2BCFCD120024B803 /* SwiftUIView.swift */,
-				7A8E23112BCFD0520024B803 /* LaunchViewController.swift */,
 				7A8E22E52BCF7B4E0024B803 /* Preview Content */,
 			);
 			path = WellNest;
@@ -149,14 +173,6 @@
 				7A8E22FC2BCF7B4E0024B803 /* WellNestUITestsLaunchTests.swift */,
 			);
 			path = WellNestUITests;
-			sourceTree = "<group>";
-		};
-		D38E37C32BD1C70F00CD016F /* NutritionTab */ = {
-			isa = PBXGroup;
-			children = (
-				D38E37C12BD1B95400CD016F /* NutritionView.swift */,
-			);
-			path = NutritionTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
