@@ -69,7 +69,7 @@
 		7A8E230F2BCFCD120024B803 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		7A8E23112BCFD0520024B803 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		D38E37BF2BD1B93300CD016F /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
-		D38E37C12BD1B95400CD016F /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		D38E37C12BD1B95400CD016F /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NutritionView.swift; path = ../NutritionView.swift; sourceTree = "<group>"; };
 		D38E37C52BD23A8100CD016F /* MacroHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroHeaderView.swift; sourceTree = "<group>"; };
 		D38E37C72BD250C900CD016F /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		D38E37C92BD253DE00CD016F /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
@@ -177,9 +177,6 @@
 				D38E37D12BD26AAF00CD016F /* Macro.swift */,
 				D38E37D52BD26F4600CD016F /* Models */,
 				D38E37C42BD23A6E00CD016F /* Preview Content */,
-
-				D38E37C12BD1B95400CD016F /* NutritionView.swift */,
-refs/remotes/origin/main
 			);
 			path = NutritionTab;
 			sourceTree = "<group>";
@@ -202,8 +199,8 @@ refs/remotes/origin/main
 			children = (
 				D38E37CB2BD25D9600CD016F /* RequestModels.swift */,
 				D38E37DA2BD30BE900CD016F /* DailyMacro.swift */,
-				D38E37CD2BD2658A00CD016F /* ResponseModels.swift */,
 				D38E37C12BD1B95400CD016F /* NutritionView.swift */,
+				D38E37CD2BD2658A00CD016F /* ResponseModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";

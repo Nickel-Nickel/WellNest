@@ -27,7 +27,7 @@ struct MoodView: View{
         
         VStack(spacing: 20) {
             
-            Text("Log your mood")
+            Text("Lg your mood")
                 .font(.largeTitle)
 /*             TextField("How do you feel?", text: $mood)
                 .padding()
