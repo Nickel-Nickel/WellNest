@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>WellNest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+<<<<<<< HEAD
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7A8E22DB2BCF7B4C0024B803</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A8E22EB2BCF7B4E0024B803</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A8E22F52BCF7B4E0024B803</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+=======
+>>>>>>> refs/remotes/origin/main
+</dict>
+</plist>

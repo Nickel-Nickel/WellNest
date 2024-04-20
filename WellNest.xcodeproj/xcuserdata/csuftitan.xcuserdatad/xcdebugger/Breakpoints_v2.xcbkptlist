@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EAC76E37-E000-4589-B35C-255523DB0B63"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60B31817-6D5E-4189-9013-069135346571"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WellNest/LaunchScreenController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "tooltips"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "60B31817-6D5E-4189-9013-069135346571 - 2c7e0ca3cf2591e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WellNest.LaunchScreenController.TooltipField.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "WellNest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WellNest/WellNest/LaunchScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "60B31817-6D5E-4189-9013-069135346571 - 7f6915a01f273df5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WellNest.LaunchScreenController.TooltipField.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "WellNest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WellNest/WellNest/LaunchScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "60B31817-6D5E-4189-9013-069135346571 - 5691a671ed693a37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WellNest.LaunchScreenController.TooltipField.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "WellNest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WellNest/WellNest/LaunchScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "60B31817-6D5E-4189-9013-069135346571 - 12ad5975d7552e0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WellNest.LaunchScreenController.TooltipField.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "WellNest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WellNest/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "60B31817-6D5E-4189-9013-069135346571 - fd6b369b385ec5fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WellNest.LaunchScreenController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; WellNest.LaunchScreenController"
+                  moduleName = "WellNest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WellNest/WellNest/LaunchScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "60B31817-6D5E-4189-9013-069135346571 - 908d9ce31de0de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WellNest.LaunchScreenController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WellNest.LaunchScreenController&gt;"
+                  moduleName = "WellNest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WellNest/WellNest/LaunchScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03DED7E7-7EAD-4EAB-BB1B-350200E9C5A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WellNest/LaunchScreenController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "tooltips"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
