@@ -7,8 +7,48 @@
 
 import SwiftUI
 
-struct HomeView: View{
+struct Quote: Codable {
+    let text: String
+    let author: String
     
+    var quoteAuthor: String {
+            let components = author.components(separatedBy: ",")
+            if let firstComponent = components.first {
+                return firstComponent
+            } else {
+                return author
+            }
+        }
+}
+
+class QuoteViewModel: ObservableObject {
+    @Published var quote: Quote?
+    
+    func fetchQuote() {
+        guard let url = URL(string: "https://type.fit/api/quotes") else { return }
+        
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            guard let data = data, error == nil else {
+                print("Error fetching quote: \(error?.localizedDescription ?? "Unknown error")")
+                return
+            }
+            
+            do {
+                let fetchedQuotes = try JSONDecoder().decode([Quote].self, from: data)
+                if let randomQuote = fetchedQuotes.randomElement() {
+                    DispatchQueue.main.async {
+                        self.quote = randomQuote
+                    }
+                }
+            } catch {
+                print("Error decoding quote: \(error.localizedDescription)")
+            }
+        }.resume()
+    }
+}
+
+struct HomeView: View{
+    @ObservedObject var viewModel = QuoteViewModel()
     /* its a common convention to use 'body'
      to represent our current view */
     
@@ -21,16 +61,22 @@ struct HomeView: View{
         /*ZStack is a SwiftUI container view
          that stacks its contents on top of each other.
          In this case, it stacks a Circle and a Text view.*/
-        ZStack{
-            Circle().frame(width: 200, height: 200).foregroundColor(.red)
-            Text("Home").foregroundColor(.white).font(.system(size: 70, weight: .bold))
-        }
+        VStack {
+                if let quote = viewModel.quote {
+                    Text(quote.text)
+                        .font(.headline)
+                    Text("- \(quote.quoteAuthor)")
+                        .font(.subheadline)
+                } else {
+                    ProgressView()
+                }
+            }
+            .onAppear {
+                viewModel.fetchQuote()
+            }
+        
     }
     
 }
 
-struct Home_Previews: PreviewProvider{
-    static var previews: some View{
-        HomeView()
-    }
-}
+
