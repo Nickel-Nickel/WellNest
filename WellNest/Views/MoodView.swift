@@ -11,31 +11,23 @@ struct MoodView: View{
     @State private var mood = ""
     @State private var date = Date()
     @State private var chosenMood: MoodType? = nil          //variable to store currently selected mood
+    @State private var showMoodLog = false
+    @State private var moodLog: [MoodData] = []
     
-    enum MoodType {
-        case happy
-        case neutral
-        case sad
+    
+    
+    enum MoodType: String {
+        case happy = "happy"
+        case neutral = "neutral"
+        case sad = "sad"
     }
     
     var body: some View{
-//        ZStack{
-//            Circle().frame(width: 200, height: 200).foregroundColor(.blue)
-//            Text("Mood").foregroundColor(.white).font(.system(size: 70, weight: .bold))
-//        }
-
         
         VStack(spacing: 20) {
-            
             Text("Log your mood")
                 .font(.largeTitle)
-/*             TextField("How do you feel?", text: $mood)
-                .padding()
-                .background(
-                    RoundedRectangle(cornerRadius: 15)
-                        .stroke()
-                )
-*/
+
             ZStack{
                 Image("icon_happy")
                     .resizable()
@@ -84,11 +76,17 @@ struct MoodView: View{
             .frame(width: 350, height: 120)
             
             DatePicker("Date", selection: $date)
+
+            
             
             Button {
+                if let chosenMood = chosenMood {
+                    let newMoodData = MoodData(mood: chosenMood.rawValue, time: Date(), date: date)
+                    moodLog.insert(newMoodData, at: 0)
+                }
                 chosenMood = nil
             } label : {
-                Text("Done")
+                Text("Enter")
                     .bold()
                     .padding()
                     .frame(maxWidth: .infinity)
@@ -97,10 +95,31 @@ struct MoodView: View{
                         RoundedRectangle(cornerRadius: 15)
                             .fill(Color(uiColor: .label))
                     )
-                
             }
+            
+            Button(action: {
+                showMoodLog.toggle()
+            }) {
+                    Text("Mood Log")
+                    .bold()
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .foregroundColor(.black)
+                    .background(
+                        RoundedRectangle(cornerRadius: 15)
+                            .fill(Color.white)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 15)
+                                    .stroke(Color.black, lineWidth: 1)
+                            )
+                    )
+            }
+            
         }
         .padding(.horizontal)
+        .sheet(isPresented: $showMoodLog) {
+            MoodLogView(moodLog: moodLog)
+        }
     }
 }
 
