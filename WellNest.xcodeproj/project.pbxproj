@@ -20,6 +20,8 @@
 		7A8E230C2BCF960B0024B803 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8E230B2BCF960B0024B803 /* Launch Screen.storyboard */; };
 		7A8E23102BCFCD120024B803 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E230F2BCFCD120024B803 /* SwiftUIView.swift */; };
 		7A8E23122BCFD0520024B803 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E23112BCFD0520024B803 /* LaunchViewController.swift */; };
+		7AA8CBE12BF5A0BA00175BD5 /* MoodLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA8CBE02BF5A0BA00175BD5 /* MoodLogView.swift */; };
+		7AA8CBE52BF5BD5900175BD5 /* MoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA8CBE42BF5BD5900175BD5 /* MoodData.swift */; };
 		D38E37C02BD1B93300CD016F /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38E37BF2BD1B93300CD016F /* WorkoutView.swift */; };
 		D38E37C22BD1B95400CD016F /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38E37C12BD1B95400CD016F /* NutritionView.swift */; };
 		D38E37C62BD23A8100CD016F /* MacroHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38E37C52BD23A8100CD016F /* MacroHeaderView.swift */; };
@@ -68,6 +70,8 @@
 		7A8E230B2BCF960B0024B803 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		7A8E230F2BCFCD120024B803 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		7A8E23112BCFD0520024B803 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		7AA8CBE02BF5A0BA00175BD5 /* MoodLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLogView.swift; sourceTree = "<group>"; };
+		7AA8CBE42BF5BD5900175BD5 /* MoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodData.swift; sourceTree = "<group>"; };
 		D38E37BF2BD1B93300CD016F /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 		D38E37C12BD1B95400CD016F /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NutritionView.swift; path = ../NutritionView.swift; sourceTree = "<group>"; };
 		D38E37C52BD23A8100CD016F /* MacroHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroHeaderView.swift; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 		7AA4301E2BD382D700491347 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7AA8CBE42BF5BD5900175BD5 /* MoodData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				037792572BD065C40036EBD1 /* HomeView.swift */,
 				D38E37BF2BD1B93300CD016F /* WorkoutView.swift */,
 				037792592BD0A6D10036EBD1 /* MoodView.swift */,
+				7AA8CBE02BF5A0BA00175BD5 /* MoodLogView.swift */,
 				0377925B2BD0A7220036EBD1 /* AccountView.swift */,
 				D38E37C32BD1C70F00CD016F /* NutritionTab */,
 			);
@@ -373,7 +379,9 @@
 				D38E37D92BD2784600CD016F /* Date+Ext.swift in Sources */,
 				7A8E22E22BCF7B4C0024B803 /* ContentView.swift in Sources */,
 				D38E37D22BD26AAF00CD016F /* Macro.swift in Sources */,
+				7AA8CBE12BF5A0BA00175BD5 /* MoodLogView.swift in Sources */,
 				7A8E23102BCFCD120024B803 /* SwiftUIView.swift in Sources */,
+				7AA8CBE52BF5BD5900175BD5 /* MoodData.swift in Sources */,
 				D38E37C82BD250C900CD016F /* OpenAIService.swift in Sources */,
 				0377925A2BD0A6D10036EBD1 /* MoodView.swift in Sources */,
 				D38E37C22BD1B95400CD016F /* NutritionView.swift in Sources */,
