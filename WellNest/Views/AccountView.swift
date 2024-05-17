@@ -12,8 +12,10 @@ struct AccountView: View{
     
     var body: some View{
         ZStack{
-            Circle().frame(width: 200, height: 200).foregroundColor(.green)
-            Text("Account").foregroundColor(.white).font(.system(size: 40, weight: .bold))
+            Circle().frame(width: 400, height: 400).foregroundColor(.green)
+            Image("burt2")
+                .resizable()
+                .scaledToFit()
         }
     }
     
